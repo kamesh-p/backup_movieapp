@@ -1,0 +1,49 @@
+.App-name {
+  align-items: center;
+  display: flex;
+  align-items: center;
+}
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(110, 131, 246);
+  color: white;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  box-shadow: 0 3px 6px 0 #555;
+}
+.Search-box {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 10px;
+  background-color: white;
+  border-radius: 6px;
+  margin-left: 20px;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+}
+.Search-box input {
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  margin-left: 15px;
+  width: 150px;
+}
+.movieListContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 24px;
+  justify-content: space-evenly;
+}
+.Main-container {
+  display: flex;
+  flex-direction: column;
+}

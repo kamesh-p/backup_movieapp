@@ -1,0 +1,34 @@
+.MovieContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 310px;
+  box-shadow: 0 3px 10px 0 #aaa;
+  cursor: pointer;
+  height: 550px;
+  background-color: rgb(163, 174, 240);
+}
+.CoverImage {
+  height: 300px;
+  object-fit: cover;
+}
+.CoverImage h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  margin: 15px 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.InfoColumn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.info {
+  font-size: 16px;
+  font-weight: 500px;
+  color: black;
+  text-transform: capitalize;
+}
